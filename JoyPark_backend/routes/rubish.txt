@@ -1,0 +1,142 @@
+
+// app.patch('/mettreAjour/parking/:id',async (req,res,next)=>{
+//     const updatedInfo = Object.keys(req.body);
+//     const parkingId = req.params.id;
+//     try{
+//        const parking = await modelParking.findById(parkingId)
+//        updatedInfo.forEach(update => utilisateur(update) = req.body(update));
+
+//        await parking.save();
+//        if(!parking) return res.status(404).send('parking introuvable');
+//        res.send(parking);
+//     }catch(error){
+//         res.status(500).send(error);
+//     }
+// });
+
+// app.delete('/supprimer/parking/:id', async (req,res,next)=>{
+//     const userId = req.params.id;
+//     try{
+//         const parking = await parking.findByIdAndDelete(userId);
+//         if(!parking) return res.status(404).send('parking introuvable');
+//         res.send(parking);
+//     }catch(error){
+//         res.status(500).send(error);
+//     }
+// })
+
+
+
+
+
+
+// app.patch('/mettreAjour/contact/:id',async (req,res,next)=>{
+//     const updatedInfo = Object.keys(req.body);
+//     const contactId = req.params.id;
+//     try{
+//        const contact = await modelContact.findById(contactId)
+//        updatedInfo.forEach(update => utilisateur(update) = req.body(update));
+
+//        await contact.save();
+//        if(!contact) return res.status(404).send('contact introuvable');
+//        res.send(contact);
+//     }catch(error){
+//         res.status(500).send(error);
+//     }
+// });
+
+// app.delete('/supprimer/contact/:id', async (req,res,next)=>{
+//     const userId = req.params.id;
+//     try{
+//         const contact = await contact.findByIdAndDelete(userId);
+//         if(!contact) return res.status(404).send('contact introuvable');
+//         res.send(contact);
+//     }catch(error){
+//         res.status(500).send(error);
+//     }
+// })
+
+
+
+// app.patch('/mettreAjour/reservation/:id',async (req,res,next)=>{
+//     const updatedInfo = Object.keys(req.body);
+//     const reservationId = req.params.id;
+//     try{
+//        const reservation = await modelReservation.findById(reservationId)
+//        updatedInfo.forEach(update => reservation(update) = req.body(update));
+
+//        await reservation.save();
+//        if(!reservation) return res.status(404).send('reservation introuvable');
+//        res.send(reservation);
+//     }catch(error){
+//         res.status(500).send(error);
+//     }
+// });
+
+// app.delete('/supprimer/reservation/:id', async (req,res,next)=>{
+//     const userId = req.params.id;
+//     try{
+//         const reservation = await reservation.findByIdAndDelete(userId);
+//         if(!reservation) return res.status(404).send('reservation introuvable');
+//         res.send(reservation);
+//     }catch(error){
+//         res.status(500).send(error);
+//     }
+// })
+
+
+// app.patch('/mettreAjour/ticket/:id',async (req,res,next)=>{
+//     const updatedInfo = Object.keys(req.body);
+//     const ticketId = req.params.id;
+//     try{
+//        const ticket = await modelTicket.findById(ticketId)
+//        updatedInfo.forEach(update => utilisateur(update) = req.body(update));
+
+//        await ticket.save();
+//        if(!ticket) return res.status(404).send('ticket introuvable');
+//        res.send(ticket);
+//     }catch(error){
+//         res.status(500).send(error);
+//     }
+// });
+
+// app.delete('/mettreAjour/ticket/:id', async (req,res,next)=>{
+//     const userId = req.params.id;
+//     try{
+//         const ticket = await ticket.findByIdAndDelete(userId);
+//         if(!ticket) return res.status(404).send('ticket introuvable');
+//         res.send(ticket);
+//     }catch(error){
+//         res.status(500).send(error);
+//     }
+// })
+
+
+
+
+
+// app.patch('/utilisateur/:_id',async (req,res,next)=>{
+//     const updatedInfo = Object.keys(req.body);
+//     const userId = req.params.id;
+//     try{
+//        const utilisateur = await modelUtilisateur.findById(userId)
+//        updatedInfo.forEach(update => utilisateur(update) = req.body(update));
+
+//        await utilisateur.save();
+//        if(!utilisateur) return res.status(404).send('utilisateur introuvable');
+//        res.send(utilisateur);
+//     }catch(error){
+//         res.status(500).send(error);
+//     }
+// });
+
+// app.delete('/utilsateur/:id', async (req,res,next)=>{
+//     // const userId = req.params.id;
+//     try{
+//         const utilisateur = await modelUtilisateur.findByIdAndDelete(req.params.id);
+//         if(!utilisateur) return res.status(404).send('utilisateur introuvable');
+//         res.send(utilisateur);
+//     }catch(error){
+//         res.status(500).send(error);
+//     }
+// })
